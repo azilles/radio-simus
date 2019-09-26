@@ -1,5 +1,5 @@
 from .namedtuple import RawShower, TypedShower
-from .property import CheckedShower
+from .property import CheckedShower, SimulatedShower
 
 import astropy.units as u
 
@@ -13,3 +13,7 @@ if __name__ == "__main__":
 
     checked = CheckedShower(primary = "tau-", energy = 1E+00 * u.J)
     print("This is a checked shower: ", checked)
+
+    simulated = SimulatedShower(primary = "tau-", energy = 1E+19 * u.eV,
+                                simulation="ZHAires")
+    print("This is a simulated shower: ", simulated)
