@@ -214,6 +214,15 @@ def get_voltage(time1, Ex, Ey, Ez, zenith_sim, azimuth_sim,alpha=0, beta=0, typ=
         time trace
     '''
     
+    #Matias Fix
+    if len(time1) % 2 != 0:
+      print("the number of time bins is odd, we remove the last to make it even, but i dont know why. Ask Olivier")
+      time1=np.delete(time1, -1)
+      Ex=np.delete(Ex, -1)
+      Ey=np.delete(Ey, -1)
+      Ez=np.delete(Ez, -1)
+
+
     # Load proper antenna response matrix
     if typ=="X":
        fileleff = fileleff_x

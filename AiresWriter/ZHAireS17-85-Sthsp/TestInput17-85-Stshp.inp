@@ -1,0 +1,269 @@
+################################################################################
+# Inputfile Generated with:
+# sry file ./ZHAireS17-85/TheTestInput17-85.sry
+# skeleton file ./Skeleton.inp
+# and a width of 3.0 times the effective cherenkov cone of 0.857
+################################################################################
+
+################################################################################
+# Aires simulation header generated with CreateAiresInputHeader                #
+################################################################################
+TaskName Stshp_TheTestInput17-85
+PrimaryParticle Proton
+PrimaryEnergy 0.1 EeV
+PrimaryZenAngle 85.2 deg
+PrimaryAzimAngle 85.2 deg Magnetic
+RandomSeed 0.208220848
+################################################################################
+
+################################################################################
+# Starshape Pattern created with CreateAiresStarshapeInp.py v1.0
+# mountain slope 0.0 deg
+# mountain azimuth 0.0 deg
+# cone vertex distance 150.4 Km
+# cone angle 2.6 deg
+# Number of Antennas per ray20
+# Separation Mode linear deg
+# Magnetic Field Zenith 147.3 deg
+# Magnetic Field Azimuth 0.0 deg
+################################################################################
+
+ZHAireS On
+FresnelTime On
+AddAntenna A0    -101.681    2198.259       0.000
+AddAntenna A1    -401.209    -840.716       0.000
+AddAntenna A2    -465.714   -3387.211       0.000
+AddAntenna A3    -257.410   -3949.523       0.000
+AddAntenna A4     101.681   -2198.259      -0.000
+AddAntenna A5     401.209     840.716      -0.000
+AddAntenna A6     465.714    3387.211       0.000
+AddAntenna A7     257.410    3949.523       0.000
+AddAntenna A8    -203.362    4396.517       0.000
+AddAntenna A9    -802.418   -1681.432       0.000
+AddAntenna A10    -931.427   -6774.421       0.000
+AddAntenna A11    -514.820   -7899.047       0.000
+AddAntenna A12     203.362   -4396.517      -0.000
+AddAntenna A13     802.418    1681.432      -0.000
+AddAntenna A14     931.427    6774.421       0.000
+AddAntenna A15     514.820    7899.047       0.000
+AddAntenna A16    -305.044    6594.776       0.000
+AddAntenna A17   -1203.626   -2522.148       0.000
+AddAntenna A18   -1397.141  -10161.632       0.000
+AddAntenna A19    -772.230  -11848.570       0.000
+AddAntenna A20     305.044   -6594.776       0.000
+AddAntenna A21    1203.626    2522.148      -0.000
+AddAntenna A22    1397.141   10161.632      -0.000
+AddAntenna A23     772.230   11848.570       0.000
+AddAntenna A24    -406.725    8793.035       0.000
+AddAntenna A25   -1604.835   -3362.864       0.000
+AddAntenna A26   -1862.855  -13548.843       0.000
+AddAntenna A27   -1029.640  -15798.093       0.000
+AddAntenna A28     406.725   -8793.035      -0.000
+AddAntenna A29    1604.835    3362.864      -0.000
+AddAntenna A30    1862.855   13548.843       0.000
+AddAntenna A31    1029.640   15798.093       0.000
+AddAntenna A32    -508.406   10991.294       0.000
+AddAntenna A33   -2006.044   -4203.580       0.000
+AddAntenna A34   -2328.569  -16936.054       0.000
+AddAntenna A35   -1287.049  -19747.617      -0.000
+AddAntenna A36     508.406  -10991.294      -0.000
+AddAntenna A37    2006.044    4203.580      -0.000
+AddAntenna A38    2328.569   16936.054       0.000
+AddAntenna A39    1287.049   19747.617       0.000
+AddAntenna A40    -610.087   13189.552       0.000
+AddAntenna A41   -2407.253   -5044.296       0.000
+AddAntenna A42   -2794.282  -20323.264       0.000
+AddAntenna A43   -1544.459  -23697.140       0.000
+AddAntenna A44     610.087  -13189.552       0.000
+AddAntenna A45    2407.253    5044.296      -0.000
+AddAntenna A46    2794.282   20323.264      -0.000
+AddAntenna A47    1544.459   23697.140       0.000
+AddAntenna A48    -711.768   15387.811       0.000
+AddAntenna A49   -2808.462   -5885.012       0.000
+AddAntenna A50   -3259.996  -23710.475       0.000
+AddAntenna A51   -1801.869  -27646.663       0.000
+AddAntenna A52     711.768  -15387.811      -0.000
+AddAntenna A53    2808.462    5885.012      -0.000
+AddAntenna A54    3259.996   23710.475       0.000
+AddAntenna A55    1801.869   27646.663       0.000
+AddAntenna A56    -813.450   17586.070       0.000
+AddAntenna A57   -3209.670   -6725.728       0.000
+AddAntenna A58   -3725.710  -27097.686       0.000
+AddAntenna A59   -2059.279  -31596.187       0.000
+AddAntenna A60     813.450  -17586.070      -0.000
+AddAntenna A61    3209.670    6725.728      -0.000
+AddAntenna A62    3725.710   27097.686       0.000
+AddAntenna A63    2059.279   31596.187       0.000
+AddAntenna A64    -915.131   19784.328       0.000
+AddAntenna A65   -3610.879   -7566.444       0.000
+AddAntenna A66   -4191.424  -30484.896       0.000
+AddAntenna A67   -2316.689  -35545.710       0.000
+AddAntenna A68     915.131  -19784.328      -0.000
+AddAntenna A69    3610.879    7566.444      -0.000
+AddAntenna A70    4191.424   30484.896       0.000
+AddAntenna A71    2316.689   35545.710       0.000
+AddAntenna A72   -1016.812   21982.587       0.000
+AddAntenna A73   -4012.088   -8407.160       0.000
+AddAntenna A74   -4657.137  -33872.107       0.000
+AddAntenna A75   -2574.099  -39495.233      -0.000
+AddAntenna A76    1016.812  -21982.587      -0.000
+AddAntenna A77    4012.088    8407.160      -0.000
+AddAntenna A78    4657.137   33872.107       0.000
+AddAntenna A79    2574.099   39495.233       0.000
+AddAntenna A80   -1118.493   24180.846       0.000
+AddAntenna A81   -4413.297   -9247.876       0.000
+AddAntenna A82   -5122.851  -37259.318       0.000
+AddAntenna A83   -2831.509  -43444.756       0.000
+AddAntenna A84    1118.493  -24180.846      -0.000
+AddAntenna A85    4413.297    9247.876      -0.000
+AddAntenna A86    5122.851   37259.318       0.000
+AddAntenna A87    2831.509   43444.756       0.000
+AddAntenna A88   -1220.174   26379.105       0.000
+AddAntenna A89   -4814.506  -10088.592       0.000
+AddAntenna A90   -5588.565  -40646.529       0.000
+AddAntenna A91   -3088.919  -47394.280       0.000
+AddAntenna A92    1220.174  -26379.105       0.000
+AddAntenna A93    4814.506   10088.592      -0.000
+AddAntenna A94    5588.565   40646.529      -0.000
+AddAntenna A95    3088.919   47394.280       0.000
+AddAntenna A96   -1321.855   28577.363       0.000
+AddAntenna A97   -5215.714  -10929.308       0.000
+AddAntenna A98   -6054.279  -44033.739       0.000
+AddAntenna A99   -3346.328  -51343.803       0.000
+AddAntenna A100    1321.855  -28577.363       0.000
+AddAntenna A101    5215.714   10929.308      -0.000
+AddAntenna A102    6054.279   44033.739       0.000
+AddAntenna A103    3346.328   51343.803       0.000
+AddAntenna A104   -1423.537   30775.622       0.000
+AddAntenna A105   -5616.923  -11770.024       0.000
+AddAntenna A106   -6519.992  -47420.950       0.000
+AddAntenna A107   -3603.738  -55293.326       0.000
+AddAntenna A108    1423.537  -30775.622      -0.000
+AddAntenna A109    5616.923   11770.024      -0.000
+AddAntenna A110    6519.992   47420.950       0.000
+AddAntenna A111    3603.738   55293.326       0.000
+AddAntenna A112   -1525.218   32973.881       0.000
+AddAntenna A113   -6018.132  -12610.740       0.000
+AddAntenna A114   -6985.706  -50808.161       0.000
+AddAntenna A115   -3861.148  -59242.850       0.000
+AddAntenna A116    1525.218  -32973.881      -0.000
+AddAntenna A117    6018.132   12610.740      -0.000
+AddAntenna A118    6985.706   50808.161       0.000
+AddAntenna A119    3861.148   59242.850       0.000
+AddAntenna A120   -1626.899   35172.140       0.000
+AddAntenna A121   -6419.341  -13451.456       0.000
+AddAntenna A122   -7451.420  -54195.371       0.000
+AddAntenna A123   -4118.558  -63192.373       0.000
+AddAntenna A124    1626.899  -35172.140      -0.000
+AddAntenna A125    6419.341   13451.456      -0.000
+AddAntenna A126    7451.420   54195.371       0.000
+AddAntenna A127    4118.558   63192.373       0.000
+AddAntenna A128   -1728.580   37370.398       0.000
+AddAntenna A129   -6820.550  -14292.172       0.000
+AddAntenna A130   -7917.133  -57582.582       0.000
+AddAntenna A131   -4375.968  -67141.896       0.000
+AddAntenna A132    1728.580  -37370.398      -0.000
+AddAntenna A133    6820.550   14292.172      -0.000
+AddAntenna A134    7917.133   57582.582       0.000
+AddAntenna A135    4375.968   67141.896      -0.000
+AddAntenna A136   -1830.261   39568.657       0.000
+AddAntenna A137   -7221.758  -15132.888       0.000
+AddAntenna A138   -8382.847  -60969.793       0.000
+AddAntenna A139   -4633.378  -71091.420       0.000
+AddAntenna A140    1830.261  -39568.657      -0.000
+AddAntenna A141    7221.758   15132.888      -0.000
+AddAntenna A142    8382.847   60969.793       0.000
+AddAntenna A143    4633.378   71091.420       0.000
+AddAntenna A144   -1931.943   41766.916       0.000
+AddAntenna A145   -7622.967  -15973.604       0.000
+AddAntenna A146   -8848.561  -64357.004       0.000
+AddAntenna A147   -4890.788  -75040.943       0.000
+AddAntenna A148    1931.943  -41766.916       0.000
+AddAntenna A149    7622.967   15973.604      -0.000
+AddAntenna A150    8848.561   64357.004       0.000
+AddAntenna A151    4890.788   75040.943       0.000
+AddAntenna A152   -2033.624   43965.174       0.000
+AddAntenna A153   -8024.176  -16814.320       0.000
+AddAntenna A154   -9314.275  -67744.214       0.000
+AddAntenna A155   -5148.198  -78990.466      -0.000
+AddAntenna A156    2033.624  -43965.174      -0.000
+AddAntenna A157    8024.176   16814.320      -0.000
+AddAntenna A158    9314.275   67744.214       0.000
+AddAntenna A159    5148.198   78990.466       0.000
+################################################################################
+
+#16 Crosscheck Antennas  ####################################################
+
+AddAntenna CrossCheckA160   -1057.859  -19028.340       0.000
+AddAntenna CrossCheckA161   -6052.965  -19323.788       0.000
+AddAntenna CrossCheckA162    1219.690  -28012.744       0.000
+AddAntenna CrossCheckA163    5449.948   55763.523       0.000
+AddAntenna CrossCheckA164    4697.952   31398.054       0.000
+AddAntenna CrossCheckA165    9203.257   50727.186       0.000
+AddAntenna CrossCheckA166   -8561.907  -70296.459       0.000
+AddAntenna CrossCheckA167    2570.178   17686.778       0.000
+AddAntenna CrossCheckA168   -2014.890   -8072.936       0.000
+AddAntenna CrossCheckA169   -5468.096  -32568.139      -0.000
+AddAntenna CrossCheckA170   -1936.673  -61193.176       0.000
+AddAntenna CrossCheckA171   -1740.874   33572.777       0.000
+AddAntenna CrossCheckA172   -1890.830  -38685.127       0.000
+AddAntenna CrossCheckA173    3335.812   34488.930      -0.000
+AddAntenna CrossCheckA174   -5301.603   -1075.874       0.000
+AddAntenna CrossCheckA175   -2506.589   31276.961       0.000
+################################################################################
+
+#Skeleton ##############################################################
+#A GRAND SHOWER SKELETON
+#------------------------------------------------------------------------------
+#
+#AIRES Section
+#
+
+PropagatePrimary On
+
+#Configure the site
+AddSite Lenghu 38.870398 deg 92.334037 deg 2900.00 m
+Site Lenghu
+GeomagneticField 54.021 uT 57.43 deg 0.72 deg
+GroundAltitude 2900 m
+
+#Set up thinning.
+Thinning 1E-4 Rel
+ThinningWFactor 0.06
+TotalShowers 1
+
+#We make the Antenna time window tight to reduce output. Be sure to tune it for your needs. (this will produce 257 time bins, of wich 256 will be in the file, to have a power of 2)
+AntennaTimeMin -66 ns
+AntennaTimeMax 448 ns
+
+TimeDomainBin 2 ns
+
+#Speed up sims for radio
+#increase the energy threshold up to 3MeV (specially if you are not interested in the ground particles)..saves up to 50% time
+ElectronCutEnergy 1 MeV
+ElectronRoughCut 1 MeV
+GammaCutEnergy 1 MeV
+GammaRoughCut 1 MeV
+
+#creates an additional CoREAS compatible output
+CoREASOutput On
+
+#Table Export
+Export 2001 O d
+Export 2205 O d
+Export 2207 O d
+Export 1205 O a
+Export 1207 O a
+
+RLimsTables 100 m 3.5 km
+
+#dont save ground or lgtpcles if you wont use them (waste space)
+SaveNotInFile lgtpcles All
+SaveNotInFile grdpcles All
+
+#increase the number of observing levels (more detailed longitudinal files, at the expense of a bigger idf data file)
+ObservingLevels 510 100.000 km 2.9 km
+
+
+
+

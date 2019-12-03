@@ -9,6 +9,7 @@ from os.path import split, join, realpath
 import numpy as np
 import sys
 import glob
+import radio_simus.hdf5fileinout as hdf5io
 
 import logging
 logger = logging.getLogger("In_Out")
@@ -369,6 +370,9 @@ def _table_efield(efield, pos, slopes=None, info={}):
     efield_ant: astropy table
         
     '''
+    #note that all this code is duplicated in _table_voltage, excepth for the names Ex, Ey, Ez and the units. This should be collapsed to a common function,
+    #that we can use to write all the trace types. Since units and names would be in the function call, this will make it more flexible)
+
     from astropy.table import Table, Column
     
     info.update({'position': pos, 'slopes': slopes})
@@ -472,11 +476,18 @@ def load_trace_to_table(path, pos=np.array([0,0,0]), slopes=np.array([0,0]), inf
         voltage = np.loadtxt(path)
         efield_ant = _table_voltage(voltage, pos)
     
+#saving the trace (an astropy table) to the HDM5 should be a function, with path, and the rest of the arguments. This would alow to control how things are stored with only one function
+#More High level functions SaveVoltage, saveEfield, etc should handle the details of how this is named inside the file (so that it can be changed in the future if necessary)
     if save:
         if content=="efield" or content=="e":
-            efield_ant.write(save, path=ant+'efield', format="hdf5", append=True,  compression=True,serialize_meta=True) #
+            #efield_ant.write(save, path=ant+'efield', format="hdf5", append=True,  compression=True,serialize_meta=True) #
+            hdf5io.SaveElectricFieldTrace(save,ant,efield_ant)
+
+
         if content=="voltages" or content=="v":
-            efield_ant.write(save, path=ant+'voltages', format="hdf5", append=True, compression=True,serialize_meta=True) #
+            #efield_ant.write(save, path=ant+'voltages', format="hdf5", append=True, compression=True,serialize_meta=True) #
+            hdf5io.SaveVoltageTrace(save,ant,efield_ant)
+
         
     return efield_ant
         
